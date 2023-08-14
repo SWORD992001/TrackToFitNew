@@ -137,6 +137,13 @@ public class BMICalculator extends AppCompatActivity {
         }
         resultText.setText(fullResultString);
     }
+
+
+
+
+
+
+
     private void displayGuidance(double bmi)
     {
         DecimalFormat myDecimalFormatter = new DecimalFormat(  "0.00");
