@@ -33,7 +33,6 @@ public class BMICalculator extends AppCompatActivity {
         setContentView(R.layout.activity_bmicalculator);
 
         imBack = findViewById(R.id.imBack);
-
         imBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -137,13 +136,6 @@ public class BMICalculator extends AppCompatActivity {
         }
         resultText.setText(fullResultString);
     }
-
-
-
-
-
-
-
     private void displayGuidance(double bmi)
     {
         DecimalFormat myDecimalFormatter = new DecimalFormat(  "0.00");
