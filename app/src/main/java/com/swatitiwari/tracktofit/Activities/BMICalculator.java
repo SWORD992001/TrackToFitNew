@@ -33,6 +33,7 @@ public class BMICalculator extends AppCompatActivity {
         setContentView(R.layout.activity_bmicalculator);
 
         imBack = findViewById(R.id.imBack);
+
         imBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
