@@ -40,7 +40,6 @@ public class BMICalculator extends AppCompatActivity {
                 finish();
             }
 
-
         });
         textToSpeech = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
