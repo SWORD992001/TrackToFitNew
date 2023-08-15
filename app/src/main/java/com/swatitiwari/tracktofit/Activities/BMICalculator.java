@@ -39,6 +39,8 @@ public class BMICalculator extends AppCompatActivity {
                 startActivity(new Intent(BMICalculator.this, MainActivity.class));
                 finish();
             }
+
+
         });
         textToSpeech = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
